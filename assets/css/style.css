@@ -8,6 +8,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    scroll-behavior: smooth;
 }
 
 body {
@@ -59,9 +60,20 @@ header div h1 {
     color: var(--teal);
     display:flex;
     flex-direction: row;
+    text-decoration: none;
     margin: 1em;
     border-bottom: 3px solid var(--teal);
     padding: 0 5px 5px 5px;
+}
+
+#no-style li a {
+    text-decoration: none;
+    color: var(--teal);
+}
+
+.footer #no-style li a {
+    text-decoration: none;
+    color: black;
 }
 
 header #justify-end {
@@ -144,6 +156,14 @@ main  {
     padding: 35px 0;
 }
 
+.footer {
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    height: fit-content;
+}
+
 #id-info {
     display: flex;
     flex-wrap: wrap;
@@ -151,6 +171,7 @@ main  {
     width: 50%;
     height: 100%;
     padding-left: 30px;
+    border-left: 5px solid var(--palenavy);
 }
 
 .work {
@@ -162,10 +183,28 @@ main  {
     padding: 35px 0;
 }
 
+#work-titles {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: flex-end;
+    text-align: end;
+    justify-content: flex-end;
+    padding-right: 20px;
+    color: var(--palenavy);
+    font-size: 50px;
+    width: 150px;
+    height: 100%;
+    padding: 35px;
+    padding-left: 20%;
+}
+
 .flex-container {
     display: flex;
     flex-wrap: wrap;
     justify-content: flex-end;
+    border-left: 5px solid var(--palenavy);
+    padding-left: 20px;
 }
 
 .flex-item {
@@ -202,6 +241,7 @@ main  {
 
 .project-1 {
     background-image: url("../images/surf-report.jpeg");
+
 }
 
 .project-2 {
@@ -216,7 +256,6 @@ main  {
     background-image: url("../images/pastel-puzzles.jpeg");
 }
 
-*/
 
 .project-5 {
     background-image: url("../images/run-buddy.jpeg");
@@ -231,18 +270,14 @@ main  {
 }
 
 
-.footer {
-    display:flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    align-items: center;
-    height: fit-content;
+.footer .list {
+    border-left: 5px solid var(--palenavy);
+    padding-left: 20px;
 }
 
 .list {
     padding-left: 6em;
 }
-
 
 .footer .list li {
     color: black;

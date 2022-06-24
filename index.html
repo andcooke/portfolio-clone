@@ -14,11 +14,11 @@
           <h1>A.C.</h1>
       </div>
       <div id="justify-end">
-          <ul class="list">
-              <li>About Me</li>
-              <li>Work</li>
-              <li>Contact Me</li>
-              <li>Resume</li>
+          <ul class="list" id="no-style">
+              <li><a href="#about-me-anchor">About Me</a></li>
+              <li><a href="#work-anchor">Work</a></li>
+              <li><a href="#contact-me-anchor">Contact Me</a></li>
+              <li><a href="#">Resume</a></li>
           </ul>
       </div>
   </header>
@@ -31,8 +31,8 @@
 
   <main>
 
-  <section class="about-me"> <!--class="about-me"-->
-      <div class="titles"> <!--class="titles"-->
+  <section class="about-me" id="about-me-anchor"> <!--class="about-me"-->
+      <div id="work-titles"> <!--class="titles"-->
         <h2>About Me</h2>
       </div>
       <div id="id-info">  <!--id="info"-->
@@ -42,8 +42,8 @@
       </div>
   </section>
 
-  <section class="work">
-    <div class="titles"> <!--class="titles"-->
+  <section class="work" id="work-anchor">
+    <div id="work-titles"> <!--class="titles"-->
       <h2>Work</h2>
     </div>
  
@@ -82,27 +82,21 @@
       </div>
   </section>
 
-
-
-    <section class="footer">
-        <div class="footer titles"> <!--class="titles"-->
+    <section class="footer" id="contact-me-anchor">
+        <div class="footer" id="work-titles"> <!--class="titles"-->
             <h2>Contact Me</h2>
             </div>
             <div>
-                <ul class="list">
-                    <li>555.555.5555</li>
-                    <li>andcooke@duck.com</li>
-                    <li>GitHub</li>
-                    <li>Twitter</li>
-                    <li>Spotify</li>
+                <ul class="list" id="no-style">
+                    <li><a href="tel:2813308004">281.330.8004</a></li>
+                    <li><a href="mailto:andcooke@duck.com">andcooke@duck.com</a></li>
+                    <li><a href="https://github.com/andcooke">GitHub</a></li>
+                    <li><a href="https://twitter.com">Twitter</a></li>
+                    <li><a href="https://music.apple.com/us/browse">Spotify</a></li>
                 </ul>
         </div>
     </section>
- </main>
 
-    
-
-
-
+  </main>
   </body>
 </html>
