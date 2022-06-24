@@ -1,4 +1,4 @@
-# portfolio-clone
+Website can be accessed at: https://andcooke.github.io/portfolio-clone/
 
 The intent of this page was to try to pixel-perfect clone a portfolio page. 
 
